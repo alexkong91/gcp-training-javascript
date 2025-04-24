@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 8080;
 
 app.get('/', (req, res) => {
   console.log('Request for /');
-  res.status(200).json({ message: 'Hello World From Dev! Woohoo!' });
+  res.status(200).json({ message: 'Hello World From Dev! Woohoo! 2' });
 });
 
 app.get('/health', (req, res) => {
