@@ -3,7 +3,7 @@ name: 'Build and Deploy to Cloud Run for Dev'
 on:
   push:
     branches:
-      - 'dev'
+      - dev
 
 env:
   PROJECT_ID: 'alexkong-cdks2'
