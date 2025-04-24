@@ -27,7 +27,7 @@ jobs:
 
       - name: 'Build and Push Container'
         run: |-
-          docker buildx build --platform linux/amd64 -t us-west1-docker.pkg.dev/alexkong-sdk2/my-repo/gcp-training-javascript .
+          docker buildx build --platform linux/amd64 -t us-west1-docker.pkg.dev/alexkong-cdks2/my-repo/gcp-training-javascript .
           docker push us-west1-docker.pkg.dev/alexkong-cdks2/my-repo/gcp-training-javascript
 
       - name: 'Deploy to Cloud Run'
